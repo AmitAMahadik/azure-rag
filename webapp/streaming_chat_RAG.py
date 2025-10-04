@@ -70,7 +70,7 @@ def search(query):
         k=5,
     )
     result = docs[0][0].page_content
-    print(result)
+    print("ACS result:", result)
     return result
 
 
